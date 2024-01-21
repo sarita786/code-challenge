@@ -33,8 +33,8 @@ const profilelist = [
           y2="20"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#917AFD" />
-          <stop offset="1" stop-color="#6246EA" />
+          <stop stopColor="#917AFD" />
+          <stop offset="1" stopColor="#6246EA" />
         </linearGradient>
       </defs>
     </svg>
@@ -67,20 +67,20 @@ const profilelist = [
         viewBox="0 0 20 20"
         fill="none"
       >
-        <g clip-path="url(#clip0_403_2023)">
+        <g clipPath="url(#clip0_403_2023)">
           <path
             d="M11.5625 6.5625L4.6875 13.4375L1.25 10.0002"
             stroke="url(#paint0_linear_403_2023)"
-            stroke-width="1.25"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.25"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M18.7503 6.5625L11.8753 13.4375L10.0493 11.6116"
             stroke="url(#paint1_linear_403_2023)"
-            stroke-width="1.25"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.25"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
         <defs>
@@ -92,8 +92,8 @@ const profilelist = [
             y2="15.8817"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#917AFD" />
-            <stop offset="1" stop-color="#6246EA" />
+            <stop stopColor="#917AFD" />
+            <stop offset="1" stopColor="#6246EA" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_403_2023"
@@ -103,8 +103,8 @@ const profilelist = [
             y2="14.9114"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#917AFD" />
-            <stop offset="1" stop-color="#6246EA" />
+            <stop stopColor="#917AFD" />
+            <stop offset="1" stopColor="#6246EA" />
           </linearGradient>
           <clipPath id="clip0_403_2023">
             <rect width="20" height="20" fill="white" />
@@ -126,13 +126,13 @@ const profilelist = [
         viewBox="0 0 20 20"
         fill="none"
       >
-        <g clip-path="url(#clip0_403_2038)">
+        <g clipPath="url(#clip0_403_2038)">
           <path
             d="M16.875 5.62539L8.125 14.375L3.75 10.0004"
             stroke="#1A1E25"
-            stroke-width="1.25"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.25"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
         <defs>
