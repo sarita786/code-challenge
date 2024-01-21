@@ -36,3 +36,15 @@ code {
     transform: translateX(calc(-100% * var(--animation-multiplier)));
   }
 }
+
+svg.active path {
+  fill: #684DEC; 
+ 
+}
+
+svg.inactive path {
+  fill: none; 
+  stroke: #7D8588; 
+}
+
+
