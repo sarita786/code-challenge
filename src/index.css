@@ -39,7 +39,6 @@ code {
 
 svg.active path {
   fill: #684DEC; 
- 
 }
 
 svg.inactive path {
@@ -47,4 +46,6 @@ svg.inactive path {
   stroke: #7D8588; 
 }
 
-
+.input-container:focus-within .icon-container svg path {
+  fill: #684DEC; 
+}
