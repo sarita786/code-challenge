@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Code Challenge
 
-## Available Scripts
+This project is a front-end implementation based on a provided Figma design, assigned as a code challenge. The goal is to replicate the design using React.js as the primary framework. The project emphasizes clean, readable, and maintainable code, with a focus on showcasing effective use of React.js features.
 
-In the project directory, you can run:
 
-### `npm start`
+## Implementation Approach
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My implementation approach focused on adhering closely to the provided Figma design, ensuring a pixel-perfect and responsive user interface. I began by breaking down the design into modular components, leveraging the power of React.js to create a well-structured and maintainable codebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Highlights:
 
-### `npm test`
+1. #### Design Replication:
+- Paid close attention to detail for an accurate replication of the Figma design.
+- Utilized React components to encapsulate UI elements, promoting reusability and maintainability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. #### Responsive Design:
+- Ensured responsiveness across various screen sizes to deliver a seamless user experience.
+- Employed media queries and Flexbox/Grid layouts to adapt the UI dynamically.
 
-### `npm run build`
+3. #### Search Functionality:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Implemented a robust search feature allowing users to search for profiles by name and location.
+- Leveraged React state management for real-time updates and responsiveness.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. #### Explore Page Enhancements:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Integrated the "See All" and "See Less" functionality seamlessly.
+- Effectively managed data visibility, providing users with a streamlined experience.
 
-### `npm run eject`
+5. #### Data Fetching and CORS Issue:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Overcame CORS issues while fetching data from the JSON file by incorporating the proxy-middleware.
+- Set up proxy requests to ensure smooth data retrieval, maintaining a smooth user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Challenges Encountered:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**CORS Issue:**  The primary challenge was the CORS issue during data fetching. This was addressed by installing and configuring the proxy-middleware to facilitate seamless communication with the JSON file.
 
-## Learn More
+**Time Management:** Given the time constraint, prioritizing features and focusing on core functionalities became crucial. I approached this by ensuring the key features were implemented effectively while maintaining code quality.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Positive Outcome:
+Despite the challenges, the implementation resulted in a visually appealing and functional application. The React.js framework proved instrumental in achieving a clean and maintainable codebase, showcasing my proficiency in utilizing its features.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
 
-### Analyzing the Bundle Size
+**Client:** React, TailwindCSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Server:** Node,
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Get Started
 
-### Advanced Configuration
+Follow these steps to set up and run the project locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+Ensure you have the following installed on your machine:
+- Node.js: The project is built using Node.js, and it includes npm for package management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Installation
+1. Clone the repository:
 
-### `npm run build` fails to minify
+```bash
+git clone https://github.com/your-username/your-project.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+
+2. Install dependencies:
+
+```bash
+  npm install
+```
+
+### Usage
+
+1. Start the development server:
+
+```bash
+  npm start or npm run start
+```
+
+2. Open your web browser and access the application at http://localhost:3000.
+
+
+## Dependencies
+- proxy-middleware: Middleware to handle proxy requests for resolving CORS issues.
+
+
+## Notes
+
+- Make sure to run npm install before starting the project.
+- For data fetching, ensure that the provided JSON file link is accessible.
+
+
